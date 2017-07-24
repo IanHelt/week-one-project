@@ -1,0 +1,315 @@
+  *{
+  box-sizing: border-box;
+}
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lora', serif;
+*/
+  body{
+  max-width: 100%;
+  background-color: rgb(242, 241, 233);
+  margin: 0;
+}
+  .wrapper{
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  margin: auto;
+}
+  .nav-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  background-color: rgb(255, 255, 255);
+  min-width: 100%;
+  border-bottom-style: groove;
+  border-bottom-color: rgba(25, 25, 25, 0.2);
+}
+  .nav-bar a{
+    padding: 0 30px 0 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #2B2F26;
+    font-size: 140%;
+}
+.nav-bar a:hover{
+  color: #CD5D67;
+}
+.nav-bar a:active{
+  color: #968772
+}
+  .nav-bar img{
+    margin-right: 35%;
+  width: 60px;
+  height: 70px;
+  padding: 10px 0 10px 10px;
+}
+  header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+  }
+  header div h1,h3{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    color: #131511;
+  }
+  header div h1{
+    font-size: 350%;
+  }
+  header div h3{
+    font-size: 200%;
+  }
+  #main-content{
+    display: flex;
+    justify-content: center;
+    height: 760px;
+  }
+  #home-layout{
+    display: flex;
+    width: 98%;
+    flex-flow: row wrap;
+    max-height: 95%;
+}
+  #home-layout div{
+    display: flex;
+    align-items: flex-end;
+    margin: .5%;
+  }
+  #home-layout div p{
+    color: rgb(242, 241, 233);
+    background-color: rgb(44, 47, 39);
+    padding: 15px;
+    font-size: 120%;
+    font-family: 'Lora', serif;
+  }
+  #endless-possibilities{
+    min-width: 59%;
+    min-height: 64%;
+    background-image: url(img/product-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #sets{
+    min-width: 19%;
+    min-height: 64%;
+    background-image: url(img/product-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #textures{
+    min-width: 19%;
+    min-height: 64%;
+    background-image: url(img/product-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #tea-time{
+    min-width: 19%;
+    min-height: 34%;
+    background-image: url(img/product-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #jars-containers{
+    min-width: 19%;
+    min-height: 30%;
+    background-image: url(img/product-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #wasabi-saki{
+    min-width: 39%;
+    min-height: 34%;
+    background-image: url(img/product-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #sippin-sunshine{
+    min-width: 19%;
+    min-height: 34%;
+    background-image: url(img/product-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .site-footer{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(44, 47, 39);
+  }
+  .site-footer span{
+    font-family: 'Lora', serif;
+    padding: 20px;
+    color: rgb(242, 241, 233);
+    font-size: 120%;
+  }
+  #about-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 100%;
+  }
+  #about-top{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    align-self: center;
+  }
+  #about-top div img{
+    width:200px;
+    float:left;
+    margin: 50px 15px 0 15px;
+  }
+  #about-top div p{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 30px;
+    line-height: 1.8em;
+  }
+  #about-top div a{
+    color: rgba(25, 25, 25, 0.7);
+  }
+  #about-top div blockquote{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 130%;
+    padding: 20px;
+    margin: 21px 21px 40px 0px;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: rgba(44, 47, 39, 0.4);
+  }
+  #about-top div h3{
+    font-size: 200%;
+  }
+  #about-mid{
+    display: flex;
+    background-image: url(img/background-3.jpg);
+    align-content: center;
+    justify-content: center;
+    color: rgb(242, 241, 233);
+    padding: 80px 0 80px 0;
+    background-size: cover;
+    background-position: top;
+    font-size: 250%;
+    font-family: 'Lora', serif;
+  }
+#about-bottom{
+  display: flex;
+  align-self: center;
+  max-width: 60%;
+  flex-flow: row wrap;
+}
+  #about-facilities{
+    display: flex;
+    align-self: center;
+    max-width: 100%;
+    flex-direction: row;
+    font-family: 'Lora', serif;
+  }
+  #facilities-description h3{
+    font-size: 200%;
+  }
+  #facilities-description p{
+    font-size: 150%;
+    line-height: 1.8em;
+    font-weight: bold;
+  }
+  #shelf-info{
+    display: flex;
+    flex-direction: column;
+    margin: 7% 0 0 3%;
+    font-size: 110%;
+    line-height: 1.5em;
+  }
+  #shelf-info img{
+    max-width: 225px;
+    max-height: 225px;
+  }
+
+#about-table h3{
+  font-size: 200%;
+}
+#about-table table{
+  font-family: 'Lora', serif;
+  border-style: solid;
+  border-width: thin;
+  border-collapse: collapse;
+  border-color: rgb(44, 47, 39);
+  margin-bottom: 7%;
+}
+#about-table table tr td{
+  font-size: 150%;
+  font-weight: bold;
+  border-style: solid;
+  border-color: rgb(44, 47, 39);
+  border-collapse: collapse;
+  border-width: thin;
+  padding: 20px;
+  text-align: left;
+}
+#about-table table tr:first-child td{
+text-align: center;
+}
+#about-table table tr:nth-child(even){
+  background-color: rgba(100, 0, 25, .075);
+}
+#news-header{
+  background-image: url(img/background-2.jpg);
+  max-width: 100%;
+  min-height: 800px;
+  max-height: 800px;
+}
+#news-content{
+  display: flex;
+margin-top: 5%;
+justify-content: center;
+}
+#news-content div{
+  background-color: rgb(255, 255, 255);
+  max-width: 60%;
+  padding: 3% 2% 2% 3%;
+}
+
+#news-content div h1{
+  font-size: 200%;
+  font-family: 'Lora', serif;
+  color: rgb(44, 47, 39);
+}
+
+#news-content div h2{
+  font-size: 150%;
+  font-family: 'Lora', serif;
+  color: rgb(44, 47, 39);
+}
+
+#news-content div textarea{
+  background: none;
+  border-style: none;
+  border-bottom-style: solid;
+  border-bottom-color: #967343;
+  font-size: 130%;
+  color: rgba(44, 47, 39, .5);
+  min-width: 100%;
+  margin-bottom: 4%;
+}
+.submit-container{
+  padding: 0 !important;
+  margin-top: 0;
+}
+#submit-button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 130%;
+  background-color: #968772;
+  color: rgb(255, 255, 255);
+  border-style: none;
+  padding: 10px 30px;
+}
+#submit-button:active{
+  background-color: #967343;
+}
